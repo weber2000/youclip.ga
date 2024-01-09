@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg);
+    background-size: cover;
+} 
+body{
+    background-image: url(musika.jpg);
+    position: absolute;
+}
+input[type="text"]{
+background-color: bisque;
+width: 340px;
+height: 50px;
+border: none;
+outline:none;
+padding: 0 25px;
+border-radius: 25px 0 0 25px;
+}
+input[type="submit"]{
+background-color: orange;
+position: relative;
+width: 150px;
+height: 50px;
+border: none;
+outline: none;
+padding: 0 25px;
+border-radius: 0 25px 25px 0;
+cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: azure;
+}
+p{
+    background-color: azure;
+}
+p :hover{
+    background-color: blue;
+}
+.header{
+    background-color: orange;
+    height: 80px;
+    margin: 10px;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 10px;
+}
+ul li a{
+    color: #fff;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+}
+title{
+    text-decoration: uppercase;
+}
+button{
+background-color: blue;
+border: none;
+outline: none;
+padding: 0 25px 0 25px ;
+border-radius: 25px 25px 25px 25px;
+cursor: pointer;
+}
+button:hover{
+background-color: azure;
+}
+a:hover{
+color: blue;
+}
+#connect{
+background-image: url(imageconnect.jpg);
+}
+.enter {
+    padding: 5px;
+}
+.bte{
+
+    color: #fff;
+}
+.bte:hover{
+    color: aqua;
+}
+#telecharger{
+    width: 20px;
+    height: 20px;
+}
+#btntel{
+background-color: white;
+position: relative;
+border: none;
+outline: none;
+padding: 0 25px 0 25px ;
+border-radius: 25px 25px 25px 25px;
+cursor: pointer;
+}
+#btntel:hover{
+background-color: red;
+}
+#music{
+color: blue;
+}
+.col{
+position: relative;
+outline: invert;
+display: flex;
+}
+.imagers{ 
+height: 40px; 
+width: 60px;
+border-radius: 50px 50px 50px 50px;
+background-color:aquamarine
+}
+#next{
+background-color: blue;
+position: relative;
+border: none;
+outline: none;
+padding: 0 5px 0 5px;
+border-radius: 25px 25px 25px 25px;
+cursor: pointer;
+}
+#next:hover{
+background-color: aqua;
+}
+#micro{
+border-radius: 25px 25px 25px 25px;    
+}
+.fieldset{
+background-color:aqua;
+padding: 0 400px 399px 0 ;
+}
+.fieldset:hover{
+background-color: yellow;
+}
+.visuel{
+height: 298px;
+width: 399px;
+border-radius: 50px 50px 50px 50px;
+}
+#menu2{
+display: none;
+position: absolute;
+background-color: orange;
+}
+.header li:hover #menu2{
+display: block;
+}
+.header li {
+position: relative;
+}
